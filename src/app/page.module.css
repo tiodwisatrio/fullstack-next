@@ -15,6 +15,25 @@
   width: 100%;
   height: 400px;
   object-fit: contain;
+  animation: move 2s infinite ease alternate;
+  -webkit-animation: move 2s infinite ease alternate;
+}
+
+@keyframes move {
+  from {
+      transform: translateY(-10px);
+      -webkit-transform: translateY(-10px);
+      -moz-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+      -o-transform: translateY(-10px);
+}
+  to {
+  transform: translateY(10px);
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -o-transform: translateY(10px);
+}
 }
 
 .title {

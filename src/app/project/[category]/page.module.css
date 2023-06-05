@@ -1,0 +1,31 @@
+.container {
+
+}
+
+.catTitle {
+    color: #037840;
+}
+
+.item {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 180px;
+}
+
+.imgContainer {
+    flex: 1;
+    height: 400px;
+    position: relative;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content {
+    flex: 1;
+}
