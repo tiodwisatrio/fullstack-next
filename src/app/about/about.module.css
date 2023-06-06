@@ -10,8 +10,13 @@
 
 .img {
     object-fit: cover;
+    border-radius: 8px;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
 
 .imgText {
