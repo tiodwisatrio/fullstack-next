@@ -26,3 +26,21 @@ a{
   flex-direction: column;
   justify-content: space-between;
 }
+
+.light {
+  background-color: #f0f0f0;
+  color: #090A0B;
+}
+
+.dark {
+  background-color: #090A0B;
+  color: #f0f0f0;
+}
+
+.theme{
+  transition: 1s all ease;
+  -webkit-transition: 1s all ease;
+  -moz-transition: 1s all ease;
+  -ms-transition: 1s all ease;
+  -o-transition: 1s all ease;
+}
