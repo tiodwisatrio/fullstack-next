@@ -6,69 +6,23 @@ import Link from "next/link";
 const Blog = () => {
   return (
     <div className={styles.mainContainer}>
-      <Link href="/blog/testId" className={styles.container}>
+      <Link href="/blog/id" className={styles.container}>
         <div className={styles.imgContainer}>
           <Image
             src="https://images.pexels.com/photos/7676401/pexels-photo-7676401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            alt="image-blog"
+            alt="image_blog"
             width={450}
             height={300}
             className={styles.img}
           />
         </div>
         <div className={styles.content}>
-          <h1 className={styles.title}>Tutorial Menjadi Seleb TikTok Handal</h1>
+          <h1 className={styles.title}>Tutorial menjadi TikToker Handal</h1>
           <p className={styles.desc}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores
-            qui esse hic delectus iste quas totam quasi doloribus quaerat
-            officiis sapiente non, rerum asperiores deleniti nam incidunt
-            nostrum tempora necessitatibus ipsum repellat impedit earum. Dolorem
-            possimus eveniet consequatur deserunt minus. Fugiat ea sequi
-            veritatis reprehenderit? Sed ipsum officia repellendus aliquam?
-          </p>
-        </div>
-      </Link>
-      <Link href="/blog/testId" className={styles.container}>
-        <div className={styles.imgContainer}>
-          <Image
-            src="https://images.pexels.com/photos/7676401/pexels-photo-7676401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            alt="image-blog"
-            width={450}
-            height={300}
-            className={styles.img}
-          />
-        </div>
-        <div className={styles.content}>
-          <h1 className={styles.title}>Tutorial Menjadi Seleb TikTok Handal</h1>
-          <p className={styles.desc}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores
-            qui esse hic delectus iste quas totam quasi doloribus quaerat
-            officiis sapiente non, rerum asperiores deleniti nam incidunt
-            nostrum tempora necessitatibus ipsum repellat impedit earum. Dolorem
-            possimus eveniet consequatur deserunt minus. Fugiat ea sequi
-            veritatis reprehenderit? Sed ipsum officia repellendus aliquam?
-          </p>
-        </div>
-      </Link>
-      <Link href="/blog/testId" className={styles.container}>
-        <div className={styles.imgContainer}>
-          <Image
-            src="https://images.pexels.com/photos/7676401/pexels-photo-7676401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            alt="image-blog"
-            width={450}
-            height={300}
-            className={styles.img}
-          />
-        </div>
-        <div className={styles.content}>
-          <h1 className={styles.title}>Tutorial Menjadi Seleb TikTok Handal</h1>
-          <p className={styles.desc}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores
-            qui esse hic delectus iste quas totam quasi doloribus quaerat
-            officiis sapiente non, rerum asperiores deleniti nam incidunt
-            nostrum tempora necessitatibus ipsum repellat impedit earum. Dolorem
-            possimus eveniet consequatur deserunt minus. Fugiat ea sequi
-            veritatis reprehenderit? Sed ipsum officia repellendus aliquam?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed libero
+            nisi voluptatem tenetur neque! Aut nam quibusdam ad asperiores eius
+            fugit vel rerum ipsa quo, eum voluptatibus voluptates doloremque
+            tempore?
           </p>
         </div>
       </Link>
