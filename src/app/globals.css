@@ -28,13 +28,13 @@ a{
 }
 
 .light {
-  background-color: #f0f0f0;
+  background-color: #fbf7f7;
   color: #090A0B;
 }
 
 .dark {
-  background-color: #090A0B;
-  color: #f0f0f0;
+  background-color: #1e2022;
+  color: #fff;
 }
 
 .theme{
